@@ -293,11 +293,18 @@ header {
   font-size: 0.9rem;
   color: var(--text-muted);
   line-height: 1.75;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.25rem 1rem 2.5rem;
   margin-left: 0.5rem;
   background: var(--bg-page);
   border-left: 3px solid var(--accent);
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.duck-about__steps li {
+  padding-left: 0.25rem;
 }
 
 .duck-about__tokens {

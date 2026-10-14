@@ -38,6 +38,12 @@ function applyI18n() {
   document.querySelectorAll('[data-i18n]').forEach(el => {
     el.textContent = t(el.dataset.i18n);
   });
+  document.querySelectorAll('[data-i18n-list]').forEach(el => {
+    const items = t(el.dataset.i18nList);
+    if (Array.isArray(items)) {
+      el.innerHTML = items.map(item => `<li>${item}</li>`).join('');
+    }
+  });
   input.placeholder = t('placeholder');
   btnLang.textContent = t('langToggle');
   document.title = t('title');
