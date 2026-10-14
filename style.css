@@ -326,6 +326,12 @@ header {
   letter-spacing: 0.01em;
 }
 
+.duck-about__disclaimer {
+  font-size: 0.8rem;
+  color: var(--text-subtle);
+  font-style: italic;
+}
+
 .duck-about__link {
   font-size: 0.9rem;
   font-weight: 600;
