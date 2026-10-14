@@ -10,6 +10,11 @@ export const LOCALES = {
       typing: 'digitando...',
       selectPrompt: 'Escolha um pato para começar',
       langToggle: 'EN',
+      aboutTitle: 'O que é rubber duck debugging?',
+      aboutText: 'É uma técnica clássica de depuração onde você explica seu código, linha por linha, para um objeto inanimado — tradicionalmente um pato de borracha. O simples ato de articular o problema em voz alta força seu cérebro a processar a lógica de forma diferente, frequentemente revelando a solução antes mesmo de terminar de explicar.',
+      aboutSteps: 'Como funciona: 1) Pegue seu pato. 2) Explique o que o código deveria fazer. 3) Descreva o que ele está fazendo de verdade. 4) Identifique a discrepância. 5) Resolva. O pato não precisa responder — e esse é exatamente o ponto.',
+      aboutLink: 'Saiba mais na Wikipedia →',
+      aboutTokens: 'Tokens ilimitados. Converse o quanto quiser com qualquer pato.',
     },
     ducks: {
       claude: {
@@ -326,6 +331,11 @@ export const LOCALES = {
       typing: 'typing...',
       selectPrompt: 'Choose a duck to get started',
       langToggle: 'PT',
+      aboutTitle: 'What is rubber duck debugging?',
+      aboutText: 'A classic debugging technique where you explain your code, line by line, to an inanimate object — traditionally a rubber duck. The simple act of articulating the problem out loud forces your brain to process the logic differently, often revealing the solution before you even finish explaining.',
+      aboutSteps: 'How it works: 1) Get your duck. 2) Explain what the code is supposed to do. 3) Describe what it is actually doing. 4) Identify the discrepancy. 5) Fix it. The duck does not need to respond — and that is exactly the point.',
+      aboutLink: 'Learn more on Wikipedia →',
+      aboutTokens: 'Unlimited tokens. Talk as much as you want with any duck.',
     },
     ducks: {
       claude: {

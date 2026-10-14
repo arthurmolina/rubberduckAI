@@ -261,6 +261,72 @@ header {
   display: block;
 }
 
+/* ── About section ───────────────────────────────────── */
+
+.duck-about {
+  max-width: 680px;
+  margin: 2.5rem auto 0;
+  padding: 1.5rem 2rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.duck-about__title {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--text);
+  margin-bottom: 0.75rem;
+}
+
+.duck-about__text {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 0.75rem;
+}
+
+.duck-about__steps {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.65;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: var(--bg-page);
+  border-left: 3px solid var(--accent);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+}
+
+.duck-about__tokens {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+  letter-spacing: 0.01em;
+}
+
+.duck-about__link {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--accent);
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.duck-about__link:hover {
+  opacity: 0.75;
+  text-decoration: underline;
+}
+
+@media (max-width: 520px) {
+  .duck-about {
+    margin: 2rem 1rem 0;
+    padding: 1.25rem;
+  }
+}
+
 /* ── Chat Screen ─────────────────────────────────────── */
 
 #screen-chat {
