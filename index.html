@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RubberDuckAI — Talk to your rubber duck. It's listening." />
+  <title>RubberDuckAI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <span class="header__logo">RubberDuck<em>AI</em></span>
+    <div class="header__controls">
+      <button id="btn-theme" aria-label="Switch theme">⊙</button>
+      <button id="btn-lang" aria-label="Switch language">EN</button>
+    </div>
+  </header>
+
+  <!-- ── Selection Screen ── -->
+  <section id="screen-select" aria-label="Duck selection">
+    <div class="select-body">
+      <div class="select-hero">
+        <h1 class="select-hero__tagline" data-i18n="tagline"></h1>
+        <p class="select-hero__sub" data-i18n="subtitle"></p>
+      </div>
+      <p class="select-prompt" data-i18n="selectPrompt"></p>
+      <div id="duck-grid" role="list"></div>
+    </div>
+  </section>
+
+  <!-- ── Chat Screen ── -->
+  <section id="screen-chat" aria-label="Chat" hidden>
+    <div class="chat-header">
+      <span id="chat-avatar" aria-hidden="true"></span>
+      <span id="chat-duck-name"></span>
+      <button id="btn-back" data-i18n="back"></button>
+    </div>
+
+    <div id="messages" role="log" aria-live="polite" aria-label="Chat messages">
+      <div id="typing-indicator" hidden aria-label="Duck is typing">
+        <span class="typing-avatar" id="typing-avatar" aria-hidden="true"></span>
+        <div class="typing-dots" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="input-area">
+      <textarea
+        id="input"
+        rows="1"
+        aria-label="Message input"
+        autocomplete="off"
+        spellcheck="true"
+      ></textarea>
+      <button id="btn-send" data-i18n="send"></button>
+    </div>
+  </section>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
