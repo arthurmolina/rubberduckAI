@@ -307,6 +307,18 @@ header {
   padding-left: 0.25rem;
 }
 
+.duck-about__works-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--text);
+}
+
+.duck-about__works-text {
+  font-size: 0.9375rem;
+  color: var(--text-muted);
+  line-height: 1.75;
+}
+
 .duck-about__tokens {
   font-size: 0.875rem;
   font-weight: 700;

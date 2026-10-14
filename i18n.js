@@ -20,6 +20,8 @@ export const LOCALES = {
         'Resolva. O pato não precisa responder — e esse é exatamente o ponto.',
       ],
       aboutLink: 'Saiba mais na Wikipedia →',
+      aboutWorksTitle: 'Isso realmente funciona?',
+      aboutWorksText: 'Sim. Não o pato — a técnica. Se você se pegar digitando seu problema para um chatbot de pato de borracha e resolver na metade da mensagem, isso não é um bug. Esse é exatamente o ponto.',
       aboutTokens: 'Tokens ilimitados. Converse o quanto quiser com qualquer pato.',
     },
     ducks: {
@@ -347,6 +349,8 @@ export const LOCALES = {
         'Fix it. The duck does not need to respond — and that is exactly the point.',
       ],
       aboutLink: 'Learn more on Wikipedia →',
+      aboutWorksTitle: 'Does it actually work?',
+      aboutWorksText: 'Yes. Not the duck — the technique. If you find yourself typing out your problem to a rubber duck chatbot and solving it halfway through the message, that\'s not a bug. That\'s the whole point.',
       aboutTokens: 'Unlimited tokens. Talk as much as you want with any duck.',
     },
     ducks: {
